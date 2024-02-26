@@ -54,12 +54,14 @@ nav a {
 }
 
 nav a:hover,
+
 nav a:active,
 nav a.active {
     background-color: var(--accent);
     color: white; /* Set the text color to white or your preferred color */
     outline: none; /* Remove the default focus outline */
 }
+
 
 /* Media query for mobile view */
 @media (max-width: 768px) {
