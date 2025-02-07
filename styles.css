@@ -129,12 +129,15 @@ ul {
 
 .contact-grid div {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: space-between;
 }
 
 .contact-grid i {
     margin-right: 10px;
     color: var(--secondary);
+    
 }
 
 footer {
